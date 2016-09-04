@@ -16,6 +16,7 @@ class Algorithm(object):
                     max_result=result
                     x_result=x
                     y_result=y
+                    
         return x_result , y_result
 final_result=Algorithm()
 print (final_result.brute_force(3,0,3,0))
